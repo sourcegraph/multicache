@@ -1,6 +1,6 @@
 // Package multicache provides a "fallback" cache implementation that
 // short-circuits gets and writes/deletes to all underlying caches.
-package multicache
+package multicache // import "sourcegraph.com/sourcegraph/multicache"
 
 // Fallback is a cache that wraps a list of caches. Gets read from the caches in
 // sequence until a cache entry is found. Sets write to all caches, returning
